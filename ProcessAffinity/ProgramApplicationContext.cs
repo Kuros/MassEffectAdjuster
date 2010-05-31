@@ -11,10 +11,12 @@ namespace ProcessAffinity
 {
 	public class ProgramApplicationContext : ApplicationContext
 	{
-		
+        private const String MASS_EFFECT_2 = "MassEffect2";
+
 		private NotifyIcon notifyIcon;
 		private ContextMenuStrip contextMenuStrip1;
 		private ToolStripMenuItem exitToolStripMenuItem;
+        private ProcessMonitor monitor;
 
 		public ProgramApplicationContext()
 		{
@@ -43,22 +45,18 @@ namespace ProcessAffinity
 			this.exitToolStripMenuItem.Text = "E&xit";
 			this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
 
-			Thread thread = new Thread(new ParameterizedThreadStart(ShakerThread));
+            monitor = new ProcessMonitor(MASS_EFFECT_2);
+            monitor.StartMonitor();
 
 		}
 
 		private void exitToolStripMenuItem_Click(object sender, EventArgs e)
 		{
+            monitor.StopMonitor();
 			Application.Exit();
 		}
 
-		private void ShakerThread(Object parameters)
-		{
-			String processName = parameters as String;
-			Process process = Process.GetProcessesByName(processName).Single();
-
-			ProcessAPI.ShakeAffinity(process);
-		}
+		
 	
 
 	}
