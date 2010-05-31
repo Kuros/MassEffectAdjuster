@@ -36,7 +36,10 @@ namespace ProcessAffinity
 
         public void StopMonitor()
         {
-            threadRunning = false;
+            lock (this.syncHandle)
+            {
+                threadRunning = false;
+            }
         }
 
         private void ShakerThread(Object parameters)
