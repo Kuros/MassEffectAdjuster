@@ -1,5 +1,6 @@
-bin/*
-obj/*
+ProcessAffinity/bin/*
+ProcessAffinity/obj/*
+*.suo
 *.tmp
 .DS_Store
 .backups
