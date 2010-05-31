@@ -1,0 +1,9 @@
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\bin\Debug\ProcessAffinity.exe
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\bin\Debug\ProcessAffinity.pdb
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\obj\x86\Debug\ProcessAffinity.Properties.Resources.resources
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\obj\x86\Debug\ResGen.read.1.tlog
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\obj\x86\Debug\ResGen.write.1.tlog
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\obj\x86\Debug\ProcessAffinity.exe
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\obj\x86\Debug\ProcessAffinity.pdb
+c:\users\kuros.circle\documents\visual studio 2010\Projects\ProcessAffinity\ProcessAffinity\obj\x86\Debug\ProcessAffinity.Form1.resources

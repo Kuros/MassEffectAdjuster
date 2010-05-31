@@ -1,0 +1,8 @@
+bin/*
+obj/*
+*.tmp
+.DS_Store
+.backups
+.*~
+.old
+.bak
