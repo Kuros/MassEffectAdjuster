@@ -15,7 +15,10 @@ namespace ProcessAffinity
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new ProgramApplicationContext());
+            using (var context = new ProgramApplicationContext())
+            {
+                Application.Run(context);
+            }
 		}
 	}
 }
