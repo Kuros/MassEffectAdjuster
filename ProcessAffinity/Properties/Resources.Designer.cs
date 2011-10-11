@@ -68,6 +68,15 @@ namespace ProcessAffinity.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please wait, the application is shutting down..
+        /// </summary>
+        internal static string PleaseWaitExiting {
+            get {
+                return ResourceManager.GetString("PleaseWaitExiting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your system is running on single CPU. There will be no effect of this utility..
         /// </summary>
         internal static string SingleCpuMessage {

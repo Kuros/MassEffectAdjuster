@@ -127,4 +127,7 @@
   <data name="SingleCpuTitle" xml:space="preserve">
     <value>Information</value>
   </data>
+  <data name="PleaseWaitExiting" xml:space="preserve">
+    <value>Please wait, the application is shutting down.</value>
+  </data>
 </root>

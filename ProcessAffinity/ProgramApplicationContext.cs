@@ -46,6 +46,10 @@ namespace ProcessAffinity
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.contextMenuStrip1.Items.Add(new ToolStripMenuItem(Properties.Resources.PleaseWaitExiting) { Enabled = false, Size = new System.Drawing.Size(152, 22), Name="PleaseWait" });
+            this.exitToolStripMenuItem.Visible = false;
+            
+            
             monitor.StopMonitor();
             Application.Exit();
         }
